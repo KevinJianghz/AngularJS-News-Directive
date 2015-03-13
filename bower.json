@@ -1,0 +1,8 @@
+{
+  "name": "AngularJS newsDirective",
+  "version": "0.1.0",
+  "dependencies": {
+    "angular": "^1.3.0",
+    "jquery": "1.6.4"
+  }
+}

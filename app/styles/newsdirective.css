@@ -1,0 +1,121 @@
+.news-container {
+	width: 99%;
+	height:42px;
+	padding: 0px;
+	margin: 8px 8px 20px 8px;
+	position: relative;
+	background: #9ED8D8;
+	border: 1px solid #82D5E3;	
+	border-radius: 5px;	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+}
+.news-container:before{
+	content: ' NEWS';
+	font-size: 10px;
+	width: 40px;
+	height:16px;
+	padding: 0 0 0 8px;
+	transform:rotate(-90deg);
+	position: absolute;
+	top:12px;
+	left:-22px;
+	color:#FFFF0D;
+	background-color: #3F4037;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-top-right-radius: 2px;
+}
+.news-logo {
+	width: 42px;
+	height:42px;
+	position: absolute;
+	top:2px;
+	left:12px;
+	overflow: hidden;
+}
+.news-headline {
+	width: 80%;
+	height:42px;
+	padding: 8px 26px;
+	position: absolute;
+	top:0px;
+	left:42px;
+	overflow: hidden;
+}
+.news-title {
+	position: absolute;
+	padding: 2px 0;
+	width: 80%;
+	height:18px;
+	left: 16px;
+	font-size: 14px;
+	overflow: hidden;
+}
+.news-title:hover {
+	cursor: pointer;
+}
+
+.news-preview {
+	width: 300px;
+	height:67px;
+	padding: 12px;
+	position: absolute;
+	top:-106px;
+	background-color: #3F4037;
+	font-size: 12px;
+	color:#FFFFFF;
+	border: 1px solid #6F7261;
+	border-radius: 5px;	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: none;
+}
+.news-preview:hover {
+	cursor: pointer;
+}
+.news-preview:after{
+	content: '';
+	position: absolute;
+	top:92px;
+	left:140px;
+	color:red;
+    border-right: 13px solid transparent;
+    border-bottom: 0 solid #3F4037;
+    border-left: 13px solid transparent;
+    border-top: 13px solid #3F4037;
+ }
+.news-preview a {
+	color: #FFFF80;
+}
+.news-preview a:hover {
+	color: #FFFF1C;
+}
+.news-control{
+	position: absolute;
+	height: 16px;
+	width: 90px;
+	padding: 0px 12px;
+	margin: 0px;
+	top:40px;
+	left:235px;
+	background-color:#3F4037;
+	border-right: 1px solid #848774;	
+	border-bottom: 1px solid #848774;	
+	border-bottom-left-radius: 26px;
+	border-bottom-right-radius: 26px;
+}
+
+.news-backward, .news-play, .news-forward {
+	width: 33%;
+	font-size: 12px;
+	height: 13px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #3F4037;
+	color: white;
+	border: 0px;
+}
